@@ -267,8 +267,14 @@ export function InteriorDesignContent() {
           <div className="max-w-4xl mx-auto">
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, index) => (
-                <AccordionItem key={index} value={`faq-${index}`} className="border rounded-xl">
-                  <AccordionTrigger className="px-6 py-4 text-lg font-semibold text-left hover:text-primary transition-colors [&>svg]:text-primary">
+                <AccordionItem
+                  key={index}
+                  value={`faq-${index}`}
+                  className="border rounded-xl"
+                >
+                  <AccordionTrigger
+                    className="px-6 py-4 text-lg font-semibold text-left hover:text-primary transition-colors no-underline hover:no-underline [&>svg]:text-primary"
+                  >
                     {faq.question}
                   </AccordionTrigger>
                   <AccordionContent className="px-6 pb-4 text-muted-foreground leading-relaxed">
