@@ -243,7 +243,7 @@ export default function InteriorDesignPage() {
       <Header />
       <InteriorDesignHero />
       <InteriorDesignContent />
-      <InteriorDesignForm />
+      {/* <InteriorDesignForm /> */}
       <Footer />
     </main>
   )
