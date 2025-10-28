@@ -47,7 +47,7 @@ export function InteriorDesignHero() {
             At{" "}
             <a
               href="https://www.strata.sg/"
-              className="text-white hover:underline"
+              className="text-secondary"
             >
               Strata.sg
             </a>
