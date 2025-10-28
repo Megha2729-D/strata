@@ -14,6 +14,14 @@ const greatVibes = Great_Vibes({ subsets: ["latin"], weight: "400" })
 export function InteriorDesignContent() {
   const autoplay = Autoplay({ delay: 3000, stopOnInteraction: false })
 
+  const scrollToProcess = () => {
+    const section = document.getElementById("our-process")
+    if (section) {
+      const y = section.getBoundingClientRect().top + window.scrollY - 80
+      window.scrollTo({ top: y, behavior: "smooth" })
+    }
+  }
+
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,
@@ -128,8 +136,8 @@ export function InteriorDesignContent() {
       image: "/images/projects/mandarin-gardens-condo/living-dining.jpg",
       reverse: false,
       buttons: [
-        { text: "Find Out More", link: "#" },
-        { text: "See Projects", link: "#" },
+        { text: "Find Out More", link: "https://www.strata.sg/about" },
+        { text: "See Projects", link: "https://www.strata.sg/projects" },
       ],
       bg: "bg-white",
     },
@@ -140,8 +148,8 @@ export function InteriorDesignContent() {
       image: "/images/projects/punggol-hdb/kitchen-cabinets.jpg",
       reverse: true,
       buttons: [
-        { text: "Learn More", link: "#" },
-        { text: "View Gallery", link: "#" },
+        { text: "Learn More", link: "https://www.strata.sg/about" },
+        { text: "View Gallery", link: "https://www.strata.sg/projects" },
       ],
       bg: "bg-secondary/20",
     },
@@ -152,8 +160,8 @@ export function InteriorDesignContent() {
       image: "/images/projects/mandarin-gardens-condo/kitchen.jpg",
       reverse: false,
       buttons: [
-        { text: "Find Out More", link: "#" },
-        { text: "See Projects", link: "#" },
+        { text: "Find Out More", link: "https://www.strata.sg/about" },
+        { text: "See Projects", link: "https://www.strata.sg/projects" },
       ],
       bg: "bg-white",
     },
@@ -419,8 +427,8 @@ export function InteriorDesignContent() {
                 Our design process ensures every detail is thoughtfully planned and beautifully executed. See how our Singapore interior design team transforms spaces into elegant, functional, and inspiring environments.
               </p>
               <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-                <a href="">
-                  <Button className="rounded-full border border-primary text-primary bg-white hover:bg-primary hover:text-white transition-all px-8 py-3 tracking-[1px] font-light text-[13px]" >
+                <a onClick={scrollToProcess}>
+                  <Button className="rounded-full border border-primary text-primary bg-white hover:bg-primary hover:text-white transition-all px-8 py-3 tracking-[1px] font-light text-[13px]">
                     VIEW OUR PROCESS
                   </Button>
                 </a>
@@ -497,7 +505,7 @@ export function InteriorDesignContent() {
           </div>
         </div>
       </section>
-      <section className="py-20 bg-secondary/10">
+      <section className="py-20 bg-secondary/10" id="our-process">
         <div className="container mx-auto px-6 lg:px-16 space-y-5 flex flex-col items-center">
           <h3 className={` ${greatVibes.className} text-3xl md:text-5xl font-bold text-center text-secondary mb-14`}>Our Transparent and Customer-Centric Process</h3>
           {process.map((item, index) => (
