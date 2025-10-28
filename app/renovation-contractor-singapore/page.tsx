@@ -233,7 +233,7 @@ export default function RenovationContractorPage() {
       <Header />
       <RenovationHero />
       <RenovationContent />
-      <RenovationForm />
+      {/* <RenovationForm /> */}
       <Footer />
       {/* ✅ Schema injection */}
       <script
