@@ -174,7 +174,7 @@ export function InteriorDesignContent() {
     },
     {
       name: "Chong Wei Ang",
-      text: "I engaged strata.sg for home renovation in Singapore. They were easy to work with and kept me updated. Their <a href='https://www.strata.sg/about' className='text-secondary'> premium interior design </a> touches gave my space a better look. I felt comfortable dealing with their Sims Avenue office.",
+      text: "I engaged strata.sg for home renovation in Singapore. They were easy to work with and kept me updated. Their <a href='https://www.strata.sg/about' class='text-secondary'> premium interior design </a> touches gave my space a better look. I felt comfortable dealing with their Sims Avenue office.",
     },
     {
       name: "Thirumalai Srinivasan",
