@@ -79,7 +79,7 @@ export default function RenovationContent() {
   // New Services Section
   const services = [
     {
-      title: "<a href='https://www.homeanddecor.com.sg/renovation/hdb-electrical-loading?ref=titlestacked' className='text-secondary' target='_blank'> HDB Renovation</a>",
+      title: "<a href='https://www.homeanddecor.com.sg/renovation/hdb-electrical-loading?ref=titlestacked' class='text-secondary' target='_blank'> HDB Renovation</a>",
       description:
         "We transform HDB flats into stylish and functional homes. From smart space planning to custom carpentry and modern finishes, we maximize every square foot for comfort and practicality.",
       icon: Home,
@@ -87,13 +87,13 @@ export default function RenovationContent() {
     {
       title: "Condo Renovation",
       description:
-        "Our <a href='https://gharpedia.com/blog/condo-renovation-tips/' className='text-secondary' target='_blank'> condominium renovations</a> combine luxury with functionality. Using premium materials and tailored layouts, we create elegant living spaces that match your lifestyle.",
+        "Our <a href='https://gharpedia.com/blog/condo-renovation-tips/' class='text-secondary' target='_blank'> condominium renovations</a> combine luxury with functionality. Using premium materials and tailored layouts, we create elegant living spaces that match your lifestyle.",
       icon: Building2,
     },
     {
       title: "Commercial Renovation",
       description:
-        "From retail outlets to restaurants and showrooms, we design and renovate commercial spaces that strengthen your brand identity while improving <a href='https://www.strata.sg/reviews' className='text-secondary'> customer experience</a>.",
+        "From retail outlets to restaurants and showrooms, we design and renovate commercial spaces that strengthen your brand identity while improving <a href='https://www.strata.sg/reviews' class='text-secondary'> customer experience</a>.",
       icon: Store,
     },
     {
@@ -209,7 +209,7 @@ export default function RenovationContent() {
     },
     {
       name: "Chong Wei Ang",
-      text: "I engaged strata.sg for home renovation in Singapore. They were easy to work with and kept me updated. Their <a href='https://www.strata.sg/about' className='text-secondary'> premium interior design </a> touches gave my space a better look. I felt comfortable dealing with their Sims Avenue office.",
+      text: "I engaged strata.sg for home renovation in Singapore. They were easy to work with and kept me updated. Their <a href='https://www.strata.sg/about' class='text-secondary'> premium interior design </a> touches gave my space a better look. I felt comfortable dealing with their Sims Avenue office.",
     },
     {
       name: "Thirumalai Srinivasan",
@@ -230,7 +230,7 @@ export default function RenovationContent() {
     {
       heading: "Concept & Design Planning",
       description:
-        "<a ='https://www.strata.sg/about' className='text-secondary'> Our team</a> develops detailed design concepts, layouts, and 3D renderings so you can visualize the final space. We provide clear proposals that outline materials, timelines, and costs.",
+        "<a ='https://www.strata.sg/about' class='text-secondary'> Our team</a> develops detailed design concepts, layouts, and 3D renderings so you can visualize the final space. We provide clear proposals that outline materials, timelines, and costs.",
     },
     {
       heading: "Execution & Quality Assurance",
