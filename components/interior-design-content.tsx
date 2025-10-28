@@ -174,7 +174,7 @@ export function InteriorDesignContent() {
     },
     {
       name: "Chong Wei Ang",
-      text: "I engaged strata.sg for home renovation in Singapore. They were easy to work with and kept me updated. Their <a href='https://www.strata.sg/about'> premium interior design </a> touches gave my space a better look. I felt comfortable dealing with their Sims Avenue office.",
+      text: "I engaged strata.sg for home renovation in Singapore. They were easy to work with and kept me updated. Their <a href='https://www.strata.sg/about' className='text-secondary'> premium interior design </a> touches gave my space a better look. I felt comfortable dealing with their Sims Avenue office.",
     },
     {
       name: "Thirumalai Srinivasan",
@@ -259,11 +259,11 @@ export function InteriorDesignContent() {
       <section className="py-20 bg-secondary/5 animate-fade-in-up">
         <div className="container mx-auto px-4 sm:px-6 lg:px-30 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">What Makes
-            <a href="https://www.strata.sg/about"> Strata Your Ideal Interior Design Partner</a>
+            <a href="https://www.strata.sg/about" className='text-secondary'> Strata Your Ideal Interior Design Partner</a>
           </h2>
           <p className="max-w-3xl mx-auto text-[14px] leading-[23px] font-light text-gray-700">
             Every home and workplace is unique. That’s why we start by understanding how you live, work, and use your space—so our interior design in Singapore enhances your lifestyle rather than simply following trends. We maximize your budget, ensuring every detail adds value. From lighting to layout, our focus is on blending elegance with functionality. With transparent pricing and no hidden costs, you’ll always know what to expect. Backed by years of experience across Singapore, our portfolio includes
-            <a href="https://en.wikipedia.org/wiki/Public_housing_in_Singapore" target="_blank"> HDB flats </a>
+            <a href="https://en.wikipedia.org/wiki/Public_housing_in_Singapore" className='text-secondary' target="_blank"> HDB flats </a>
             condominiums, offices, and industrial interiors.
           </p>
           <div className="mt-5">
