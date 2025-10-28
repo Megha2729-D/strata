@@ -59,7 +59,7 @@ export default function RenovationContent() {
     {
       title: "Transparent Process",
       description:
-        "We provide clear quotations, realistic timelines, and regular progress updates so you’ll always know what to expect—with no hidden surprises.",
+        "We provide clear quotations, realistic timelines, and regular progress updates so you’ll always know what to expect with no hidden surprises.",
       icon: FileText,
     },
     {
@@ -79,7 +79,7 @@ export default function RenovationContent() {
   // New Services Section
   const services = [
     {
-      title: "<a href='https://www.homeanddecor.com.sg/renovation/hdb-electrical-loading?ref=titlestacked' target='_blank'> HDB Renovation</a>",
+      title: "<a href='https://www.homeanddecor.com.sg/renovation/hdb-electrical-loading?ref=titlestacked' className='text-secondary' target='_blank'> HDB Renovation</a>",
       description:
         "We transform HDB flats into stylish and functional homes. From smart space planning to custom carpentry and modern finishes, we maximize every square foot for comfort and practicality.",
       icon: Home,
@@ -87,13 +87,13 @@ export default function RenovationContent() {
     {
       title: "Condo Renovation",
       description:
-        "Our <a href='https://gharpedia.com/blog/condo-renovation-tips/' target='_blank'> condominium renovations</a> combine luxury with functionality. Using premium materials and tailored layouts, we create elegant living spaces that match your lifestyle.",
+        "Our <a href='https://gharpedia.com/blog/condo-renovation-tips/' className='text-secondary' target='_blank'> condominium renovations</a> combine luxury with functionality. Using premium materials and tailored layouts, we create elegant living spaces that match your lifestyle.",
       icon: Building2,
     },
     {
       title: "Commercial Renovation",
       description:
-        "From retail outlets to restaurants and showrooms, we design and renovate commercial spaces that strengthen your brand identity while improving <a href='https://www.strata.sg/reviews'> customer experience</a>.",
+        "From retail outlets to restaurants and showrooms, we design and renovate commercial spaces that strengthen your brand identity while improving <a href='https://www.strata.sg/reviews' className='text-secondary'> customer experience</a>.",
       icon: Store,
     },
     {
@@ -111,7 +111,7 @@ export default function RenovationContent() {
     {
       title: "Electrical Services",
       description:
-        "We provide safe, reliable, and professional electrical installations and upgrades for both residential and commercial projects—handled by licensed electricians in compliance with Singapore regulations.",
+        "We provide safe, reliable, and professional electrical installations and upgrades for both residential and commercial projects handled by licensed electricians in compliance with Singapore regulations.",
       icon: Zap,
     },
   ];
@@ -165,9 +165,9 @@ export default function RenovationContent() {
 
   const sections = [
     {
-      title: "Commercial & Office Interiors",
+      title: "Commercial & Office Renovation",
       description:
-        "Enhance productivity and brand image with modern, space-efficient office interiors. Our designs combine functionality with aesthetics to reflect your company’s professional identity.",
+        "Revamp your workspace with modern, functional, and stylish renovation solutions. We create office environments that enhance productivity, reflect your brand identity, and inspire success.",
       image: "/images/projects/mandarin-gardens-condo/living-dining.jpg",
       reverse: false,
       buttons: [
@@ -177,9 +177,9 @@ export default function RenovationContent() {
       bg: "bg-white",
     },
     {
-      title: "Residential Interior Design",
+      title: "Residential Renovation",
       description:
-        "Create your dream home with elegant and functional interiors tailored to Singapore living. From HDBs to condos, we design every space for comfort, beauty, and lifestyle harmony.",
+        "Transform your home with modern and functional renovation solutions. From HDBs to condos, we enhance every space for greater comfort, beauty, and harmony with your lifestyle.",
       image: "/images/projects/punggol-hdb/kitchen-cabinets.jpg",
       reverse: true,
       buttons: [
@@ -191,7 +191,7 @@ export default function RenovationContent() {
     {
       title: "Renovation & Space Planning",
       description:
-        "Maximize every inch of your space with smart renovation and layout planning. We deliver creative, practical solutions to make your interiors stylish, efficient, and uniquely yours.",
+        "Make the most of your space with smart renovation and thoughtful layout design. Our team creates stylish, efficient, and personalized spaces that perfectly fit your lifestyle and needs.",
       image: "/images/projects/mandarin-gardens-condo/kitchen.jpg",
       reverse: false,
       buttons: [
@@ -209,7 +209,7 @@ export default function RenovationContent() {
     },
     {
       name: "Chong Wei Ang",
-      text: "I engaged strata.sg for home renovation in Singapore. They were easy to work with and kept me updated. Their <a href='https://www.strata.sg/about'> premium interior design </a> touches gave my space a better look. I felt comfortable dealing with their Sims Avenue office.",
+      text: "I engaged strata.sg for home renovation in Singapore. They were easy to work with and kept me updated. Their <a href='https://www.strata.sg/about' className='text-secondary'> premium interior design </a> touches gave my space a better look. I felt comfortable dealing with their Sims Avenue office.",
     },
     {
       name: "Thirumalai Srinivasan",
@@ -230,7 +230,7 @@ export default function RenovationContent() {
     {
       heading: "Concept & Design Planning",
       description:
-        "<a ='https://www.strata.sg/about'> Our team</a> develops detailed design concepts, layouts, and 3D renderings so you can visualize the final space. We provide clear proposals that outline materials, timelines, and costs.",
+        "<a ='https://www.strata.sg/about' className='text-secondary'> Our team</a> develops detailed design concepts, layouts, and 3D renderings so you can visualize the final space. We provide clear proposals that outline materials, timelines, and costs.",
     },
     {
       heading: "Execution & Quality Assurance",
@@ -325,7 +325,7 @@ export default function RenovationContent() {
                             Our{" "}
                             <a
                               href={item.link}
-                              className="text-primary underline hover:no-underline"
+                              className="text-secondary"
                             >
                               {item.linkText}
                             </a>{" "}
@@ -339,18 +339,6 @@ export default function RenovationContent() {
                   </div>
                 ))}
               </div>
-
-              {/* CTA Button */}
-              {/* <div className="mt-8">
-                <a href="https://www.strata.sg/contact">
-                  <Button
-                    size="lg"
-                    className="bg-primary tracking-[1px] font-light text-[13px] text-white hover:bg-primary/90 px-8 py-4 rounded-[20px]"
-                  >
-                    BOOK A FREE 15-MIN PHONE CONSULTATION
-                  </Button>
-                </a>
-              </div> */}
             </div>
           </div>
         </div>
@@ -364,7 +352,7 @@ export default function RenovationContent() {
           </h2>
           <p className="text-center mb-14">
             At Strata.sg, we offer comprehensive renovation and
-            <a href="https://strata.sg/interior-design-singapore/"> interior design solutions</a>
+            <a href="https://strata.sg/interior-design-singapore/" className='text-secondary'> interior design solutions </a>
             for homes, condos, offices, and commercial spaces across Singapore. Our services combine style, functionality, and quality craftsmanship to create spaces that reflect your lifestyle, brand, and vision.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -403,7 +391,7 @@ export default function RenovationContent() {
             <span className="text-primary">Real Projects, Real Transformations</span>
           </h3>
           <p className="text-center mb-14">
-            Explore our completed <a href='https://www.strata.sg/projects'> renovation projects</a> across Singapore, showcasing quality craftsmanship, attention to detail, and functional, stylish designs.
+            Explore our completed <a href='https://www.strata.sg/projects' className='text-secondary'> renovation projects</a> across Singapore, showcasing quality craftsmanship, attention to detail, and functional, stylish designs.
           </p>
 
           {/* Residential Projects */}
@@ -514,7 +502,7 @@ export default function RenovationContent() {
                 <br className="hidden md:block" />  Project Showcase
               </h2>
               <p className="text-gray-600 text-[15px] leading-[27px] max-w-2xl mx-auto mb-10 ">
-                Our design process ensures every detail is thoughtfully planned and beautifully executed. See how our Singapore interior design team transforms spaces into elegant, functional, and inspiring environments.
+                Every project begins with a clear vision and ends with a beautifully crafted space. Our Singapore interior design team follows a thoughtful process that ensures every detail is planned, refined, and perfectly executed creating interiors that are elegant, functional, and truly inspiring.
               </p>
               <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
                 <a onClick={scrollToProcess}>
@@ -597,7 +585,12 @@ export default function RenovationContent() {
       </section>
       <section className="py-20 bg-secondary/10" id="our-process">
         <div className="container mx-auto px-6 lg:px-16 space-y-5 flex flex-col items-center">
-          <h3 className={` ${greatVibes.className} text-3xl md:text-5xl font-bold text-center text-secondary mb-14`}>Our Transparent and Customer-Centric Process</h3>
+          <h3 className={` ${greatVibes.className} text-3xl md:text-5xl font-bold text-center text-secondary mb-5`}>
+            How Our Strata Team Works
+          </h3>
+          <p className="text-center mb-14">
+            At Strata.sg, our goal is to make your renovation or interior design project smooth, transparent, and stress-free. From the initial consultation to the final handover, we manage every step with care, professionalism, and attention to detail.
+          </p>
           {process.map((item, index) => (
             <div
               key={index}
@@ -661,7 +654,7 @@ export default function RenovationContent() {
             </p>
             <p className="text-gray-600 text-[14px] leading-[26px] mb-8 text-center">
               Ready to transform your home, office, or commercial space?
-              <a href="https://www.strata.sg/contact"> Contact Strata.sg</a>
+              <a href="https://www.strata.sg/contact" className='text-secondary'> Contact Strata.sg </a>
               for a free consultation and a detailed renovation plan tailored to your needs, style, and budget.
             </p>
             <div className="flex justify-center">
