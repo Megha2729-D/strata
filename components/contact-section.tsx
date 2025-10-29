@@ -49,7 +49,7 @@ export function ContactSection() {
       } catch (jsonError) {
         // JSON parsing failed
         console.error("[v0] JSON parse error:", jsonError)
-        
+
       }
 
       if (response.ok) {
