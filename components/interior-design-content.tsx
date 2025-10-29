@@ -447,7 +447,7 @@ export function InteriorDesignContent() {
       <section className="py-20 bg-white relative">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-xl md:text-2xl font-semibold tracking-wide text-[#aa5830] mb-8 uppercase">
-            What Our Clients Say About Us
+            What <a href="https://www.strata.sg/reviews"> our customers</a> say
           </h2>
           <div className="relative">
             <div className="overflow-hidden" ref={emblaRef}>
@@ -569,13 +569,12 @@ export function InteriorDesignContent() {
               Let us help you by booking your <strong>FREE 15-minute consult call today!</strong>
             </p>
             <p className="text-gray-600 text-[14px] leading-[26px] mb-8 text-center">
-              Speak to an expert Interior Designer to discuss your project goals and
-              interior design needs. We are excited to meet you!
+              Share your vision with us, and we’ll bring it to life with creativity, care, and clarity. Schedule your <a href="https://www.strata.sg/contact" className="text-secondary"> free consultation today!</a>
             </p>
             <div className="flex justify-center">
               <a href="https://www.strata.sg/contact">
                 <Button className="border border-black bg-white text-black rounded-full px-8 py-3 hover:bg-black hover:text-white transition-all">
-                  BOOK NOW
+                  CONSULT NOW
                 </Button>
               </a>
             </div>

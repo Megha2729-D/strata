@@ -230,7 +230,7 @@ export default function RenovationContent() {
     {
       heading: "Concept & Design Planning",
       description:
-        "<a ='https://www.strata.sg/about' class='text-secondary'> Our team</a> develops detailed design concepts, layouts, and 3D renderings so you can visualize the final space. We provide clear proposals that outline materials, timelines, and costs.",
+        "<a href='https://www.strata.sg/about' class='text-secondary'> Our team</a> develops detailed design concepts, layouts, and 3D renderings so you can visualize the final space. We provide clear proposals that outline materials, timelines, and costs.",
     },
     {
       heading: "Execution & Quality Assurance",
